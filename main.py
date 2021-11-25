@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET','POST'])
 def index():
-    return "Flask app is running ...docker heroku circleci deployment"
+    return "Flask app is running ...docker heroku circleci deployment code"
 
 port = int(os.getenv("PORT", 5001))
 if __name__ == "__main__":
